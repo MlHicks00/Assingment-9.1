@@ -25,7 +25,10 @@ def main():
 
     #reading written file
     with open(directory,"r") as written_file:
-
+    
+    #display the file contents to the user for validation purposes
+    print("The file contents are: ")
+    
     #displaying the file written
       data = written_file.read()
       print(data)
